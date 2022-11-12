@@ -1,0 +1,40 @@
+/* Hero Section */
+
+#Hero-Section {
+    background-image: url("../img/mar.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 35px #000000;
+  }
+
+
+  /* Mis trabajos */
+
+#Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #475761;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 200px;
+    }
+  
+  }
